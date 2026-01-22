@@ -9,7 +9,7 @@ const Post = async () => {
     // console.log(posts)
   return (
     <>
-     <h2>Posts | Fetch Data With API in Server Side Components</h2> 
+     <h2>Posts | Fetch Data With API in Server Side Components Y</h2> 
      {
         posts.map((post) => <h4 key={post.id}>#{post.id})Post Title: {post.title}</h4>)
      }
