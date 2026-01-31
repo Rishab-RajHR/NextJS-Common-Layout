@@ -4,7 +4,8 @@ const nextConfig = {
   reactCompiler: true,
   images : {
       domains : ["pixabay.com"]
-  }
+  },
+  output: "export"
 };
 
 export default nextConfig;
