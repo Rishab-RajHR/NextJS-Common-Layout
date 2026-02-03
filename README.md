@@ -14,4 +14,4 @@ Layouts persist between page navigations, improving performance.
 
 Styling can be applied globally using CSS or Tailwindcss and Bootstrap also.
 
-Helps in building scalable and clean Next.js applications.
+Helps in building scalable and clean Next.js applications. Next JS is React Framework
