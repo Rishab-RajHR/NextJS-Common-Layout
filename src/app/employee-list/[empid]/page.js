@@ -1,4 +1,5 @@
-import DeleteButton from "../component/DeleteButton";
+import Link from "next/link";
+import DeleteButton from "../../component/DeleteButton";
 
 
 const getEmployees = async () => {
@@ -16,6 +17,7 @@ const EmployeeList = async () => {
             <div key={i}>
               <h3>{item.name}</h3>
               <DeleteButton id={item.employeeId}/>
+              <Link href={`employee-list/${item.employeeId}/update`}>Edit</Link>
             </div>
         ))
      }
